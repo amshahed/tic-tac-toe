@@ -1,0 +1,66 @@
+body {
+/*   background: #142C14; */
+  background: url('https://i298.photobucket.com/albums/mm241/geckoholic01/ll_misc/252_misfitstut/MISFITS202blur.png') center no-repeat;
+  background-size: cover;
+}
+.scores {
+  float:left;
+  margin-left:150px;  margin-top:120px;
+  text-align: center;
+  font-family: 'Architects Daughter';
+  font-size:1.7em; color: white;
+  padding: 10px;
+}
+#rst {
+  margin-top: 20px;
+}
+.wrapper {
+  border: 4px solid white;
+  border-radius: 10px;
+  margin:auto; margin-top:4%;
+  width:450px; height: 450px;
+  padding: 30px;
+}
+.mode, .xoro, .result {
+  font-family: 'Architects Daughter';
+  font-size: 40px; color: white;
+  text-align: center; margin-top: 50px;
+}
+button {
+  background: transparent;
+  border: none; margin-top: 50px;
+  font-family: monospace;
+  font-size: .6em;
+}
+button:hover {
+  border: 1px solid white;
+  border-radius: 4px;
+}
+button:active {
+  transform: translate(0, 3px);
+}
+button:focus {
+  outline: none;
+}
+.blocks {
+  list-style-type:none;
+  color: #27AE60;
+  padding: 10px;
+}
+.block {
+  text-align:center;
+  float:left;
+  width: 120px; height: 120px;
+  font-size: 6em; color: #D6DBDF;
+  font-family: 'Architects Daughter';
+}
+.btmrt {
+  border-bottom:4px solid; 
+  border-right:4px solid;
+}
+.btm {
+  border-bottom: 4px solid;
+}
+.rt {
+  border-right: 4px solid;
+}

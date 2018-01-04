@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe!</title>
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class='scores'>
+  Player 1 : <span id='player1'>0</span><br>
+  <span id='vs'>Player 2 </span>: <span id='player2'>0</span><br>
+  <button id='rst'>Reset All</button>
+</div>
+
+<div class='wrapper'>
+  <div class='mode'>
+    How would you like to play?<br>
+    <button id='one'>One Player</button>
+    <button id='two'>Two Players</button>
+  </div>
+  <div class='xoro'>
+    Would you like to be X or O?<br>
+    <span style='font-size:.5em; font-family:monospace;' >(X moves first)<br></span>
+    <button id='x'>X</button>
+    <button id='o'>O</button>
+  </div>
+  <div class='board'>
+    <ul class='blocks'>
+      <li class='block btmrt' id='00'></li>
+      <li class='block btmrt' id='01'></li>
+      <li class='block btm' id='02'></li>
+      <li class='block btmrt' id='10'></li>
+      <li class='block btmrt' id='11'></li>
+      <li class='block btm' id='12'></li>
+      <li class='block rt' id='20'></li>
+      <li class='block rt' id='21'></li>
+      <li class='block' id='22'></li>
+    </ul>
+  </div>
+  <div class='result'>
+    
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
